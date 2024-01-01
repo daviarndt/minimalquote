@@ -14,6 +14,7 @@
 		39E288C82B42798300BA9510 /* Minimal_QuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E288C72B42798300BA9510 /* Minimal_QuoteTests.swift */; };
 		39E288D22B42798300BA9510 /* Minimal_QuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E288D12B42798300BA9510 /* Minimal_QuoteUITests.swift */; };
 		39E288D42B42798300BA9510 /* Minimal_QuoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E288D32B42798300BA9510 /* Minimal_QuoteUITestsLaunchTests.swift */; };
+		39E288E12B427C1500BA9510 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E288E02B427C1400BA9510 /* QuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		39E288CD2B42798300BA9510 /* Minimal QuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minimal QuoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E288D12B42798300BA9510 /* Minimal_QuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimal_QuoteUITests.swift; sourceTree = "<group>"; };
 		39E288D32B42798300BA9510 /* Minimal_QuoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minimal_QuoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39E288E02B427C1400BA9510 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				39E288B62B42798000BA9510 /* Minimal_QuoteApp.swift */,
 				39E288B82B42798000BA9510 /* ContentView.swift */,
+				39E288E02B427C1400BA9510 /* QuoteView.swift */,
 				39E288BA2B42798200BA9510 /* Assets.xcassets */,
 				39E288BC2B42798200BA9510 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E288B92B42798000BA9510 /* ContentView.swift in Sources */,
+				39E288E12B427C1500BA9510 /* QuoteView.swift in Sources */,
 				39E288B72B42798000BA9510 /* Minimal_QuoteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
