@@ -12,6 +12,7 @@ struct ContentView: View {
         ZStack {
             QuoteView(quote:"Sample Text... \n\n- Sample Author...")
         }
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
     }
 }
 
